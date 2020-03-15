@@ -24,7 +24,7 @@
 
 既然是嵌入式开发，不可避免的会涉及到输入。这里一般有两种方式，选用最简单ESP32开发板，但是这样需要我们自己准备输入输出扩展。虽然算不上有多困难，总是有些麻烦。我们选择另一种方式：遵循Ardino规范的UNO D1 R32开发板：
 
-![!](images\ESP32-WROOM-32.jpg "Photo of UNO D1 R32")
+![!](images/ESP32-WROOM-32.jpg "Photo of UNO D1 R32")
 
 通过和一元硬币的比较可以知道，UNO D1 R32还是很小的。
 
@@ -59,17 +59,17 @@ https://www.arduino.cc/en/Main/Software
 
 5.将三个文件拷贝到dist中。
 
-![!](\images\distFiles.jpg "Files in dist folder.")
+![!](/images/distFiles.jpg "Files in dist folder.")
 
 6.执行espressif/esp32/tools中的get.exe
 
-![!](\images\getExe.jpg "run get.exe")
+![!](/images/getExe.jpg "run get.exe")
 
 ## 选择开发板
 
 启动Arduino进入工具菜单，如下图选择ESP32 Dev Module。
 
-![!](\images\selectBoard.jpg "Select Board.")
+![!](/images/selectBoard.jpg "Select Board.")
 
 ## 动作确认
 
