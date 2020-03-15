@@ -49,7 +49,7 @@ https://www.arduino.cc/en/Main/Software
 因此作者首先将这些文件收集起来，安装步骤修改如下：
 
 1.Arduino安装下的hardware目录中，创建espressif/esp32目录
-![!](..\images\esp32folder.jpg "Create esp32 folder.")
+![!](\images\esp32folder.jpg "Create esp32 folder.")
 
 2.从github下载以下文件：
 
@@ -59,17 +59,17 @@ https://www.arduino.cc/en/Main/Software
 
 5.将三个文件拷贝到dist中。
 
-![!](images\distFiles.jpg "Files in dist folder.")
+![!](\images\distFiles.jpg "Files in dist folder.")
 
 6.执行espressif/esp32/tools中的get.exe
 
-![!](images\getExe.jpg "run get.exe")
+![!](\images\getExe.jpg "run get.exe")
 
 ## 选择开发板
 
 启动Arduino进入工具菜单，如下图选择ESP32 Dev Module。
 
-![!](images\selectBoard.jpg "Select Board.")
+![!](\images\selectBoard.jpg "Select Board.")
 
 ## 动作确认
 
