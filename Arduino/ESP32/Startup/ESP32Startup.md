@@ -49,7 +49,7 @@ https://www.arduino.cc/en/Main/Software
 因此作者首先将这些文件收集起来，安装步骤修改如下：
 
 1.Arduino安装下的hardware目录中，创建espressif/esp32目录
-![esp32Folder](images\esp32folder.jpg "Create esp32 folder.")
+![esp32Folder](images/esp32folder.jpg "Create esp32 folder.")
 
 2.从github下载以下文件：
 
