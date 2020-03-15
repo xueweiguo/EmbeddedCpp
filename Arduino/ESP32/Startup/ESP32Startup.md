@@ -51,13 +51,28 @@ https://www.arduino.cc/en/Main/Software
 1.Arduino安装下的hardware目录中，创建espressif/esp32目录
 ![!](images\esp32folder.jpg "Create esp32 folder.")
 
-2.
+2.从github下载以下文件：
 
-2你的arduino的安装目录里，找hardware，新建一个名为espressif的文件夹，再在里面新建一个名为esp32的文件夹，把以上下载好的压缩包解压在里面，如下图所示：
+3.将[arduino-esp32-master.zip]()的内容解压缩到第一步中创建的esp32目录中。
 
-## 链接
+4.进入espressif/esp32/tools目录，创建dist目录。
+
+5.将三个文件拷贝到dist中。
+
+![!](images\distFiles.jpg "Files in dist folder.")
+
+6.执行espressif/esp32/tools中的get.exe
+
+![!](images\getExe.jpg "run get.exe")
+
+## 选择开发板
+
+启动Arduino进入工具菜单，如下图选择ESP32 Dev Module。
+
+![!](images\selectBoard.jpg "Select Board.")
 
 ## 动作确认
+
 
 ## 参考信息
 
