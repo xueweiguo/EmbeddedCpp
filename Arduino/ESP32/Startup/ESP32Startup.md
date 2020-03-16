@@ -60,19 +60,25 @@ https://www.arduino.cc/en/Main/Software
 
 ![!](images/getExe.jpg "run get.exe")
 
-5.自动进行安装
+5.自动进行安装。但是在第三个文件的时候，一直不能完成。
 
+![!](images/getting.jpg "Download and extracting.")
 
+直接在网上直接检索检索可以找到下面的网页：
+https://github.com/igrr/mkspiffs/releases/tag/0.2.3
 
-，创建dist目录。
+![!](images/mkspiffs.jpg "Download Mkspiffs.")
 
-5.将三个文件拷贝到dist中。
+可以直接选择下载mkspiffs-0.2.3-arduino-esp32-win32.zip或者直接点击下面的链接下载：
+https://github.com/igrr/mkspiffs/releases/download/0.2.3/mkspiffs-0.2.3-arduino-esp32-win32.zip
 
-![!](images/distFiles.jpg "Files in dist folder.")
+如果还是不能下载，可以使用作者的[备份文件](mkspiffs-0.2.3-arduino-esp32-win32.zip)。
 
-6.执行espressif/esp32/tools中的get.exe
+6.进入espressif/esp32/tools/dist目录：
 
-![!](images/getExe.jpg "run get.exe")
+![!](images/waitMkspiffs.jpg "Files in dist folder.")
+
+7.将下载的mkspiffs-0.2.3-arduino-esp32-win32.zip拷贝到dist目录并重新执行get.exe。这次会很快结束。
 
 ## 选择开发板
 
