@@ -72,7 +72,7 @@ https://github.com/igrr/mkspiffs/releases/tag/0.2.3
 可以直接选择下载mkspiffs-0.2.3-arduino-esp32-win32.zip或者直接点击下面的链接下载：
 https://github.com/igrr/mkspiffs/releases/download/0.2.3/mkspiffs-0.2.3-arduino-esp32-win32.zip
 
-如果还是不能下载，可以使用作者的[备份文件](mkspiffs-0.2.3-arduino-esp32-win32.zip)。
+如果还是不能下载，可以使用作者的[备份文件](https://github.com/xueweiguo/EmbeddedCpp/raw/master/Arduino/ESP32/Startup/mkspiffs-0.2.3-arduino-esp32-win32.zip)。
 
 6.进入espressif/esp32/tools/dist目录：
 
