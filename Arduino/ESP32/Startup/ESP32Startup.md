@@ -88,6 +88,39 @@ https://github.com/igrr/mkspiffs/releases/download/0.2.3/mkspiffs-0.2.3-arduino-
 
 ## 动作确认
 
+启动Arduino并输入验证程序：
+
+```
+void setup() {
+  pinMode(2, OUTPUT);       //设置管脚2为输出模式
+}
+
+void loop() {
+  digitalWrite(2, HIGH);   // 点亮LED
+  delay(500);              // 等待500ms
+  digitalWrite(2, LOW);    // 熄灭LED
+  delay(500);            // 等待500ms
+}
+```
+
+使用MicroUSB线连接计算机和UNO D1 R32开发板，并选择端口：
+
+![!](images/selectPort.jpg "Select Port.")
+
+这里有两点需要注意：
+
+1.读者的计算机的端口号可能会有所不同，如果端口号是灰色的需要安装参考信息中的CH340驱动。
+2.使用计算机背后的端口。作者使用前面板上的USB端口搞了好半天都无法稳定地下载程序。
+
+上传程序到UNO D1 R32.
+
+![!](images/upload.jpg "Upload.")
+
+也可以使用工具栏中的上传按钮[->]上传程序。
+
+完成后可以看到开发板上的蓝色LED开始闪烁！
+
+![!](images/led.gif "LED闪烁.")   
 
 ## 参考信息
 
