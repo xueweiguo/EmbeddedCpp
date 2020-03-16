@@ -24,7 +24,7 @@
 
 既然是嵌入式开发，不可避免的会涉及到输入。这里一般有两种方式，选用最简单ESP32开发板，但是这样需要我们自己准备输入输出扩展。虽然算不上有多困难，总是有些麻烦。我们选择另一种方式：遵循Ardino规范的UNO D1 R32开发板：
 
-![!](images/ESP32-WROOM-32.jpg "Photo of UNO D1 R32")
+![UNO D1 R32](images/ESP32-WROOM-32.jpg "Photo of UNO D1 R32")
 
 通过和一元硬币的比较可以知道，UNO D1 R32还是很小的。
 
@@ -51,9 +51,10 @@ https://www.arduino.cc/en/Main/Software
 1.Arduino安装下的hardware目录中，创建espressif/esp32目录
 ![esp32Folder](images/esp32folder.jpg "Create esp32 folder.")
 
-2.从github下载以下文件：
+2.从github下载[arduino-esp32支持包](https://github.com/espressif/arduino-esp32/archive/master.zip)：
+![arduino-esp32](images/arduino-esp32.jpg "Download Zip.")
 
-3.将[arduino-esp32-master.zip]()的内容解压缩到第一步中创建的esp32目录中。
+3.将下载得到的Zip文件解压缩到第一步中创建的esp32目录中。
 
 4.进入espressif/esp32/tools目录，创建dist目录。
 
