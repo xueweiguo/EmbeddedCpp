@@ -56,7 +56,15 @@ https://www.arduino.cc/en/Main/Software
 
 3.将下载得到的Zip文件解压缩到第一步中创建的esp32目录中。
 
-4.进入espressif/esp32/tools目录，创建dist目录。
+4.进入espressif/esp32/tools目录，执行目录中的get.ext.
+
+![!](images/getExe.jpg "run get.exe")
+
+5.自动进行安装
+
+
+
+，创建dist目录。
 
 5.将三个文件拷贝到dist中。
 
